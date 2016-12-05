@@ -1,4 +1,4 @@
-DOES NOT WORK BECAUSE SYSTEMD IS MISSING!
+JESSIE:LATEST
 
 Using the technique from:
 https://github.com/resin-io-projects/armv7hf-debian-qemu

@@ -1,3 +1,5 @@
+JESSIE:20161202
+
 Using the technique from:
 https://github.com/resin-io-projects/armv7hf-debian-qemu
 
