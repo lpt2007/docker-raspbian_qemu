@@ -14,5 +14,7 @@ This leaves the container as a pure ARM container that could be pulled on a rasp
 
 You can get a bash shell with:
 ```
-sudo docker run -it --entrypoint=/usr/bin/qemu-arm-static codingwell/rpi-raspbian-qemu /bin/bash
+sudo docker run -it --entrypoint=/usr/bin/qemu-arm-static nmaas87/docker-raspbian_qemu:jessie-20161202 /bin/bash
 ```
+
+FORKED FROM: https://github.com/tsuckow/rpi-raspbian-qemu
