@@ -18,3 +18,4 @@ sudo docker run -it --entrypoint=/usr/bin/qemu-arm-static nmaas87/docker-raspbia
 ```
 
 FORKED FROM: https://github.com/tsuckow/rpi-raspbian-qemu
+UPDATER for qemu FROM: https://github.com/b4tman/armhf-alpine-qemu
