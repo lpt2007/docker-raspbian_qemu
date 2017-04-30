@@ -1,4 +1,4 @@
-#!/bin/sh -ex
+#!/bin/bash
 
 QEMU_VERSION="2.7.0-resin-rc3" QEMU_TARGET="arm"
 QEMU_SHA256="474263efd49ac9fe10240d0362c66411e124b5b80483bec7707efb9490c8c974"
