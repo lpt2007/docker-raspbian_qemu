@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh -ex
 
-QEMU_VERSION="2.7.0-resin-rc3" QEMU_TARGET="arm"
-QEMU_SHA256="474263efd49ac9fe10240d0362c66411e124b5b80483bec7707efb9490c8c974"
+QEMU_VERSION="2.5.0-resin-rc3" QEMU_TARGET="arm"
+QEMU_SHA256="107f0585f2b98a149b0ff013ec068ac24c6cfc402cd438b6da5251406bcd564c"
 QEMU_URL="https://github.com/resin-io/qemu/releases/download/qemu-${QEMU_VERSION}-${QEMU_TARGET}/qemu-${QEMU_VERSION}-${QEMU_TARGET}.tar.gz"
 
 curl -SL  $QEMU_URL -o qemu-${QEMU_VERSION}-${QEMU_TARGET}.tar.gz
